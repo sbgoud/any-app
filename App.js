@@ -10,7 +10,7 @@ export default function App() {
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
         <StatusBar  />
         <View style={styles.container}>
-          <WebView source={{ uri: 'https://sbgoud.github.io/redirectapp/' }} />
+          <WebView source={{ uri: 'https://fitnessbysbgoud.vercel.app' }} />
         </View>
       </SafeAreaView>
     </SafeAreaProvider>
